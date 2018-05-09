@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jiyun.mvptest.ui.activity.Main2Activity">
+    <com.eftimoff.androipathview.PathView
+        android:id="@+id/pv_dog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pathColor="@color/colorPrimary"
+        app:pathWidth="3dp"
+        app:svg="@raw/hongyi" />
+</LinearLayout>
